@@ -1,0 +1,49 @@
+
+     body{
+     width: 900px;
+     color: black;
+     font-family:  "微軟正黑體";
+     }
+
+
+     #ad{
+     width: 200px;
+     height: 1000px;
+     text-align: center;
+     color:white;
+     background-color: blue;
+     padding:20px 10px;
+     float: right;
+     }
+
+     #context{
+     width: 640px;
+     line-height: 1.5em;
+     padding: 20px;
+     float: left;
+     line-height:20px;
+     }
+  
+     p{
+     font-family: sans-serif, "微軟正黑體";
+     font-size: 18px;
+     text-align: left;
+     }
+     
+     #authorTime{
+     font-family: "微軟正黑體";
+     color:gray;
+     }
+     
+     table {
+     text-align: center;
+     width: 500px;
+     border-collapse: collapse;
+     font-family: "微軟正黑體";
+     font-size: 12px;
+     letter-spacing:3px;
+	 }
+
+	 table, td, th {
+     border: 1px solid black;
+	 }

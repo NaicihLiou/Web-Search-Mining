@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <title>103304042 統計三 劉乃慈 HW</title>    
+    <link href="HW3.css" rel="stylesheet">    
+    
+    <!-- Anomynum Sign In -->
+    <script src="https://www.gstatic.com/firebasejs/3.7.5/firebase.js"></script>
+    <!-- Google Sign In -->
+   <!-- <script src="https://apis.google.com/js/platform.js" async defer></script> -->
+
+    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID">
+    <meta name="google-signin-cookiepolicy" content="single_host_origin">
+    <meta name="google-signin-scope" content="profile email">
+    
+        
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyA8qjW29pZXsWR4WX2nsmODQPzcBu0r5p0",
+        authDomain: "hahaha-3b5d2.firebaseapp.com",
+        databaseURL: "https://hahaha-3b5d2.firebaseio.com",
+        projectId: "hahaha-3b5d2",
+        storageBucket: "hahaha-3b5d2.appspot.com",
+        messagingSenderId: "1041691329035"
+    };
+    firebase.initializeApp(config);
+    </script>
+
+    <script type="text/javascript" src="HW3.js"></script>
+
+
+
+</head>
+<body class="all">
+    <button onclick="toSamll()">Small </button>
+    <button onclick="toMedium()">Medium</button>
+    <button onclick="toLarge()">Large</button><br><br>
+    <button onclick="glSignIn()" id='gl-sign-in'>Google SignIn</button><br>
+    
+
+    <h1 >4 ways Google Cloud will bring AI, machine learning to the enterprise</h1>
+    <h6 id="authorTime">By Steven Max Patterson</h6>
+    <h6 id="authorTime">MAR 9, 2017 9:17 AM PT</h6>
+    <h2>Earlier in her keynote, Li began to describe some of the enterprise applications that interested her by saying: “So much more is waiting to be done.”</h2>
+    <div id="context">
+        <p id="highlight"  >Earlier in her keynote, Li began to describe some of the enterprise applications that interested her by saying: “So much more is waiting to be done.”
+        <br><br>
+        <li ><strong>Retail:</strong> Google’s Adsense can be extended by retailers to serve the best ad to the individual consumer.</li>
+        <li ><strong>Supply chain:</strong> Optimize routes and inventory, predict changes in demand, drone and autonomous vehicle deliveries.</li>
+        <li ><strong>News content: </strong> Individually personalize news and, presumably, screen fake news.</li>
+        <li ><strong>Financial services:</strong> Predict credit card risk, manage an individual’s finances, flag criminal activity like money laundering and fraud, and automate processes, such as replacing call centers and processing insurance claims with trained AI agents.</li></p>
+        <br><br>
+        <p > Li proposed Google’s infrastructure as the solution to speed training times and improve the return on investment. Google has specialized ASIC, GPU and TPU hardware in its cloud to accelerate training and improve the ROI with on-demand cloud resource utilization. After the model is trained, it is deployed in range of platforms—from on-premise to mobile devices.</p>
+        <a href="http://www.networkworld.com/…/4-ways-google-cloud-will-brin…">Read more</a>
+        <br><br><br>
+        <table id="table">
+        <tr>
+        <th>test_letter-spacing</th>
+        <th>test_letter-spacing</th>
+        </tr>
+        <tr>
+        <td>test_letter-spacing</td>
+        <td>test_letter-spacing</td>
+        </tr>
+        <tr>
+        <td>test_letter-spacing</td>
+        <td>test_letter-spacing</td>
+        </tr>
+        </table>
+        
+        <div>
+            <br>
+            <img id='cat1' height='200'/>  
+            <img id='cat2' height='200'/>   
+            <img id='cat3' height='200'/> 
+        </div>
+
+
+    </div>
+    <div id="ad">
+        <h1>AD section</h1>
+        <br>
+    </div> 
+    <br>   
+
+  <br><br>
+    <center>
+        <font size=5 color=red>留言給我</font>
+        <br>      
+
+
+
+        <!--姓名欄位-->
+        姓名: <input type="text" name="name" size="30" color="gray">
+        <br>
+
+        <!--留言內容欄位-->
+        留言內容:<br>
+        <textarea name="comment" rows="5" cols="45" id='sendTxt'></textarea>
+        <br>
+        <button onclick="send();">送出</button>
+
+    </td></tr></center>
+
+    <button onclick="scrollw()">Button for returning to the top</button><br><br> 
+    
+</body>
+</html>
